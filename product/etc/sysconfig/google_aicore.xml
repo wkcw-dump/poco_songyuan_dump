@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+    <!-- AI services open-source network component can bind to AI Core. -->
+    <allow-association target="com.google.android.as.oss" allowed="com.google.android.aicore" />
+    <feature name="com.google.android.feature.AICORE_QC_SM8850" />
+    <feature name="com.google.android.feature.AICORE_QC" />
+</config>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 灯光样式配置文件 - 映射格式 -->
+<!--
+  说明：
+  - length: 光效总时长(毫秒)
+  - flashMode: 0=持续呼吸模式, 1=常亮(只设置颜色）, 2=单次呼吸模式
+  - onMS: 32位数值，高位=上升时间(ms)，低位=常亮时间(ms)
+  - offMS: 32位数值，高位=下降时间(ms)，低位=常灭时间(ms)
+  - brightnessMode: 0=默认亮度模式
+  - key: 样式标识，用于匹配特定游戏场景下的事件
+-->
+<mapping>
+    <!-- Game 01 -->
+    <!-- 白色：持续5s，频率0.5秒闪烁1次 -->
+    <light
+        colorARGB="#ffffff"
+        flashMode="0"
+        onMS="250"
+        offMS="250"
+        brightnessMode="0"
+        length="5000"
+        key="21"
+        pkg="com.tencent.tmgp.sgame"/>
+
+    <!-- 白色：持续2.5s，频率0.4s闪烁一次，闪烁时长0.1s -->
+    <light
+        colorARGB="#ffffff"
+        flashMode="0"
+        onMS="100"
+        offMS="300"
+        brightnessMode="0"
+        length="2500"
+        key="0"
+        pkg="com.tencent.tmgp.sgame"/>
+
+    <!-- 白色：持续5S，呼吸效果，1s/周期(灭->亮->灭) -->
+    <light
+        colorARGB="#ffffff"
+        flashMode="0"
+        onMS="32768000"
+        offMS="32768000"
+        brightnessMode="0"
+        length="5000"
+        key="16"
+        pkg="com.tencent.tmgp.sgame"/>
+
+    <!-- Game 02 -->
+    <!-- 白色：兜底30S，呼吸效果，1s/周期(灭->亮->灭) -->
+    <light
+        colorARGB="#ffffff"
+        flashMode="0"
+        onMS="32768000"
+        offMS="32768000"
+        brightnessMode="0"
+        length="30000"
+        key="102"
+        pkg="com.tencent.tmgp.pubgmhd"/>
+
+    <!-- 灭 -->
+    <light
+        flashMode="0"
+        onMS="0"
+        offMS="0"
+        brightnessMode="0"
+        key="103"
+        pkg="com.tencent.tmgp.pubgmhd"/>
+
+    <!-- 白色：持续1.5S，频率0.5s闪烁一次，闪烁3次 -->
+    <light
+        colorARGB="#ffffff"
+        flashMode="0"
+        onMS="250"
+        offMS="250"
+        brightnessMode="0"
+        length="1500"
+        key="900"
+        pkg="com.tencent.tmgp.pubgmhd"/>
+
+    <!-- Game 05 -->
+    <!-- 白色：持续5S，频率0.5s闪烁一次 -->
+    <light
+        colorARGB="#ffffff"
+        flashMode="0"
+        onMS="250"
+        offMS="250"
+        brightnessMode="0"
+        length="5000"
+        key="5"
+        pkg="com.tencent.tmgp.dfm"/>
+
+    <!-- 白色：持续5S，频率0.5s闪烁一次 -->
+    <light
+        colorARGB="#ffffff"
+        flashMode="0"
+        onMS="250"
+        offMS="250"
+        brightnessMode="0"
+        length="5000"
+        key="7"
+        pkg="com.tencent.tmgp.dfm"/>
+
+    <!-- 白色：兜底30S 频率0.5s闪烁一次 -->
+    <light
+        colorARGB="#ffffff"
+        flashMode="0"
+        onMS="250"
+        offMS="250"
+        brightnessMode="0"
+        length="30000"
+        key="921"
+        pkg="com.tencent.tmgp.dfm"/>
+
+    <!-- 灭 -->
+    <light
+        flashMode="0"
+        onMS="0"
+        offMS="0"
+        brightnessMode="0"
+        key="922"
+        pkg="com.tencent.tmgp.dfm"/>
+
+    <!-- 白色：兜底30S 频率0.5s闪烁一次 -->
+    <light
+        colorARGB="#ffffff"
+        flashMode="0"
+        onMS="250"
+        offMS="250"
+        brightnessMode="0"
+        length="30000"
+        key="941"
+        pkg="com.tencent.tmgp.dfm"/>
+
+    <!-- 灭 -->
+    <light
+        flashMode="0"
+        onMS="0"
+        offMS="0"
+        brightnessMode="0"
+        key="942"
+        pkg="com.tencent.tmgp.dfm"/>
+
+    <!-- 白色：持续1.5S，频率0.5s闪烁一次，闪烁3次 -->
+    <light
+        colorARGB="#ffffff"
+        flashMode="0"
+        onMS="250"
+        offMS="250"
+        brightnessMode="0"
+        length="1500"
+        key="900"
+        pkg="com.tencent.tmgp.dfm"/>
+
+    <!-- 灭 -->
+    <!-- <light
+        flashMode="0"
+        onMS="0"
+        offMS="0"
+        brightnessMode="0"
+        key="901"
+        pkg="com.tencent.tmgp.dfm"/> -->
+
+    <!-- 白色：持续5S，呼吸效果，1s/周期(灭->亮->灭) -->
+    <light
+        colorARGB="#ffffff"
+        flashMode="0"
+        onMS="32768000"
+        offMS="32768000"
+        brightnessMode="0"
+        length="5000"
+        key="110"
+        pkg="com.tencent.tmgp.dfm"/>
+
+    <!-- Game 06 -->
+    <!-- 白色：持续5S，呼吸效果，1s/周期(灭->亮->灭) -->
+    <light
+        colorARGB="#ffffff"
+        flashMode="0"
+        onMS="32768000"
+        offMS="32768000"
+        brightnessMode="0"
+        length="5000"
+        key="756"
+        pkg="com.activision.callofduty.shooter"/>
+
+    <!-- 白色：持续1.5S，频率0.5s闪烁一次，闪烁3次 -->
+    <light
+        colorARGB="#ffffff"
+        flashMode="0"
+        onMS="250"
+        offMS="250"
+        brightnessMode="0"
+        length="1500"
+        key="732"
+        pkg="com.activision.callofduty.shooter"/>
+
+    <!-- Game 07 -->
+    <!-- 红色：持续1.5S，频率0.5s闪烁一次，闪烁3次 -->
+    <!-- <light
+        colorARGB="#ff0000"
+        flashMode="0"
+        onMS="250"
+        offMS="250"
+        brightnessMode="0"
+        length="1500"
+        key="800"
+        pkg="com.tencent.ig"/> -->
+
+    <!-- 白色：兜底30S，呼吸效果，1s/周期(灭->亮->灭) -->
+    <light
+        colorARGB="#ffffff"
+        flashMode="0"
+        onMS="32768000"
+        offMS="32768000"
+        brightnessMode="0"
+        length="30000"
+        key="102"
+        pkg="com.tencent.ig"/>
+
+    <!-- 灭 -->
+    <light
+        flashMode="0"
+        onMS="0"
+        offMS="0"
+        brightnessMode="0"
+        key="103"
+        pkg="com.tencent.ig"/>
+</mapping>

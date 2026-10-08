@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<display-config>
+    <game_app_category_list>
+        <game_app_category_emotion>
+              <item>com.mobile.legends</item>
+              <item>com.roblox.client</item>
+              <item>com.dts.freefiremax</item>
+              <item>com.dts.freefireth</item>
+              <item>com.tencent.ig</item>
+              <item>com.supercell.brawlstars</item>
+              <item>com.vitastudio.mahjong</item>
+              <item>jp.konami.pesam</item>
+              <item>com.dreamgames.royalmatch</item>
+              <item>com.pubg.imobile</item>
+              <item>com.mobilelegends.mi</item>
+              <item>com.ea.gp.fifamobile</item>
+              <item>com.dreamgames.royalkingdom</item>
+              <item>com.nianticlabs.pokemongo</item>
+              <item>com.activision.callofduty.shooter</item>
+              <item>com.mobilechess.gp</item>
+              <item>com.mojang.minecraftpe</item>
+              <item>com.garena.game.kgvn</item>
+              <item>com.playrix.township</item>
+              <item>com.supercell.hayday</item>
+              <item>com.garena.game.codm</item>
+              <item>com.axlebolt.standoff2</item>
+              <item>com.mobiin.gp</item>
+        </game_app_category_emotion>
+        <game_app_category_night>
+            <item>com.tencent.tmgp.sgame</item>
+            <item>com.tencent.tmgp.pubgmhd</item>
+            <item>com.miHoYo.ys.mi</item>
+            <item>com.miHoYo.Yuanshen</item>
+            <item>com.miHoYo.hkrpg</item>
+            <item>com.miHoYo.GenshinImpact</item>
+            <item>com.tencent.ig</item>
+            <item>com.mobile.legends</item>
+            <item>com.riotgames.league.wildrift</item>
+        </game_app_category_night>
+    </game_app_category_list>
+</display-config>

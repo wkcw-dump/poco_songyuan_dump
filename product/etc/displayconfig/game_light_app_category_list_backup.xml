@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<display-config>
+    <game_light_app_list>
+        <item>com.tencent.ig</item>
+        <item>com.pubg.krmobile</item>
+        <item>com.vng.pubgmobile</item>
+        <item>com.rekoo.pubgm</item>
+        <item>com.tencent.iglite</item>
+        <item>com.proxima.dfm</item>
+        <item>com.proxima.dfm.kbinstaller</item>
+        <item>com.proximabeta.mf.uamo</item>
+        <item>com.levelinfinite.sgameGlobal</item>
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.tencent.KiHan</item>
+        <item>com.riotgames.league.wildrift</item>
+        <item>com.miHoYo.GenshinImpact</item>
+        <item>com.HoYoverse.hkrpgoversea</item>
+    </game_light_app_list>
+</display-config>

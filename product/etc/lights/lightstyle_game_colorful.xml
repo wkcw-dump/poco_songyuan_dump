@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mapping>
+    <!-- 白色：持续5s，5次脉冲，1s/次脉冲 -->
+    <!-- 1次脉冲：0.6s内3次闪烁，然后灭0.4s -->
+    <lightstates>
+        <key>20</key>
+        <length>4900</length>
+        <pkg>com.tencent.tmgp.sgame</pkg>
+        <light
+            colorARGB="#ffffff"
+            flashMode="0"
+            onMS="130"
+            offMS="130"
+            brightnessMode="0"/>
+        <light
+            colorARGB="#ffffff"
+            flashMode="0"
+            onMS="130"
+            offMS="130"
+            brightnessMode="0"/>
+        <light
+            colorARGB="#ffffff"
+            flashMode="0"
+            onMS="130"
+            offMS="380"
+            brightnessMode="0"/>
+    </lightstates>
+    <!-- 白色闪烁 -->
+    <!-- 时间：持续~5S 频次：0.2s闪烁一次 -->
+    <lightstates>
+        <key>752</key>
+        <length>4940</length>
+        <pkg>com.activision.callofduty.shooter</pkg>
+        <light
+            colorARGB="#ffffff"
+            flashMode="0"
+            onMS="130"
+            offMS="130"
+            brightnessMode="0"/>
+    </lightstates>
+</mapping>
