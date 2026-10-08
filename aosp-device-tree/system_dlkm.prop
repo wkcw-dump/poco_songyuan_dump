@@ -1,0 +1,7 @@
+# Miscellaneous
+ro.product.device_for_attestation=songyuan
+ro.product.manufacturer_for_attestation=Xiaomi
+ro.product.system_dlkm.cert=26077PC53G
+ro.product.system_dlkm.marketname=POCO F9 Ultra
+ro.system_dlkm.build.version.sdk_full=36.0
+
