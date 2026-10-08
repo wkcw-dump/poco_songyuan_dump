@@ -1,0 +1,5 @@
+kernel: kernel
+dtb: dtb/01_dtbdump_]N]^I88h.dtb
+header version: 4
+pagesize: 4096
+cmdline: ''
