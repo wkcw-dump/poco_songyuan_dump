@@ -1,0 +1,28 @@
+# Soft dependencies extracted from modules themselves.
+softdep si_core_module pre: qcom-scm
+softdep cpu_mpam pre: mpam
+softdep qti_ptd_share pre: qti_power_telemetry
+softdep xr_qs pre: xr-qi sched-walt
+softdep mpam pre: qcom_scmi_client
+softdep qcom_pmu_lib pre: qcom_scmi_client
+softdep mpam_msc_slc pre: llcc_qcom
+softdep mpam_msc_slc pre: qcom_scmi_client
+softdep cpucp_fast pre: qcom_scmi_client
+softdep xr_qi pre: perf-actuator
+softdep pinctrl_ravelin pre: qcom_tlmm_vm_irqchip
+softdep ipclite pre: qcom_hwspinlock
+softdep qrtr pre: mi_qmi_trace common
+softdep qsee_ipc_irq_bridge pre: qcom_ipcc
+softdep platform_mpam pre: mpam
+softdep smem pre: qcom_hwspinlock
+softdep slc_mpam pre: mpam
+softdep smcinvoke_dlkm pre: si_core_module
+softdep qti_dynamic_hw_trip pre: qcom_scmi_client
+softdep dwc3_msm pre: phy-generic phy-msm-snps-hs phy-msm-ssusb-qmp eud
+softdep pinctrl_msm pre: qcom-pdc
+softdep qcom_scmi_vendor pre: qcom_cpucp
+softdep qcom_scmi_client pre: qcom_scmi_vendor
+softdep sched_walt pre: socinfo
+softdep memlat pre: qcom_scmi_client
+softdep llcc_heuristics pre: llcc_qcom
+softdep llcc_heuristics pre: qcom_scmi_client
